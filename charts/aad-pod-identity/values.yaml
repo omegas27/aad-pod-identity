@@ -176,6 +176,9 @@ rbac:
   # If using only MSI (type: 0) in AzureIdentity, secret get permission can be disabled by setting this to false.
   allowAccessToSecrets: true
 
+psp:
+  enabled: true
+
 # Create azure identities and bindings
 azureIdentities: []
   # - name: "azure-identity"
